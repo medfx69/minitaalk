@@ -6,7 +6,7 @@
 /*   By: mait-aad <mait-aad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/12 18:19:19 by mait-aad          #+#    #+#             */
-/*   Updated: 2022/03/21 14:13:52 by mait-aad         ###   ########.fr       */
+/*   Updated: 2022/03/24 18:33:41 by mait-aad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,12 @@
 # define MINITALK_H
 # include <unistd.h>
 # include <stdio.h>
+# include <stdlib.h>
 # include <signal.h>
+# include <sys/wait.h>
 
 void	ft_putnbr(int nb);
 int		ft_atoi(const char	*str);
-char	*ft_itoa(int nb);
 
 
 #endif
